@@ -1,23 +1,31 @@
-Animal Intrusion Detection System with Alert Mechanism
+This project is an AI-based Animal Intrusion Detection System designed to monitor real-time video streams using a webcam or CCTV camera.
 
-This project uses a deep learning model (YOLO/CNN) to detect animals in real-time using webcam or CCTV video. When an intrusion is detected, the system triggers alerts through SMS, email, or sound notifications. It helps protect farmland, storage areas, and private property by providing fast early warnings.
+It uses a trained deep learning model (YOLO/CNN) to detect animals entering restricted or sensitive areas.
 
-Features
+When an intrusion is detected, the system activates an alert mechanism such as SMS, email, or sound alarms.
+
+The system helps prevent crop damage, property loss, and safety risks by providing instant warnings.
+
+⚙️ Key Features
 
 Real-time animal detection
 
-Alert mechanism (SMS/Email/Buzzer)
+High accuracy using CNN/YOLO models
 
-Live video feed using OpenCV
+Live video monitoring with OpenCV
 
-Lightweight and accurate model
+Automated alerts (SMS / Email / Sound)
 
-Tech Stack
+Lightweight and efficient system
+
+Suitable for farms, warehouses, and home security
+
+🛠️ Tech Stack
 
 Python
 
 OpenCV
 
-TensorFlow / PyTorch / YOLOv8
+TensorFlow / PyTorch / YOLOv5/YOLOv8
 
-Twilio API / SMTP
+Twilio API / SMTP for alert notifications
