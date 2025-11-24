@@ -1,0 +1,59 @@
+🚀 Working Steps
+
+Step 1: Data Collection
+
+Collect images/videos of animals (dogs, cows, monkeys, cats, etc.).
+
+Use Kaggle datasets or capture your own using a webcam.
+
+Step 2: Data Preprocessing
+
+Resize all images to a fixed size.
+
+Label animal regions using tools like LabelImg.
+
+Split data into training and testing sets.
+
+Step 3: Model Training
+
+Train a deep learning model (YOLOv5/YOLOv8, CNN, or MobileNet-SSD).
+
+The model learns animal features such as shape and texture.
+
+Save the trained model weights for detection.
+
+Step 4: Real-Time Video Stream Setup
+
+Use OpenCV to read frames from a webcam or CCTV feed.
+
+Each frame is processed and sent to the model.
+
+Step 5: Animal Detection
+
+The model detects animals in the frame with confidence scores.
+
+Bounding boxes and class labels are displayed on the video feed.
+
+Step 6: Alert Mechanism
+
+If an animal is detected:
+
+Send an SMS alert (Twilio API)
+
+Or send an email alert (SMTP)
+
+Or activate a buzzer/sound alarm (if hardware connected)
+
+Step 7: Logging and Storage
+
+Save detection details such as timestamp, animal name, and snapshot.
+
+Maintain logs for future analysis and security review.
+
+Step 8: System Output
+
+Shows real-time detection on screen.
+
+Alerts are triggered immediately.
+
+Logs/images are stored in the project folder.
